@@ -1,9 +1,23 @@
 /*work sans font style form goggle fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/*common-shared styles*/
 *{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+padding: 20px 25px;
+font-size: 1.25rem;
+font-weight: 600;
+color: #FFF;
+border: none;
+cursor: pointer;
+}
+
+
+
 /*header style*/
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -48,4 +62,28 @@ color: #131313;
     font-size: 1rem;
 font-weight: 400;
 color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+/*responsive media query*/
+/*mobile device*/
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/*medium or tablet devices media query*/
+@media screen and (min-width:576px) and (max-width:922px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
