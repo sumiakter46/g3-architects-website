@@ -191,7 +191,14 @@ border: 1px solid #FF900E;
     width: 165px;
 }
 
-
+footer{
+    border-radius: 8px;
+background: #FFF4E7;
+text-align: center;
+padding: 45px 240px;
+font-size: 20px;
+font-weight: 400;
+}
 
 
 /*responsive media query*/
@@ -226,7 +233,7 @@ border: 1px solid #FF900E;
     header{
         padding: 50px;
     }
-    nav ,.team-container,.features,.sponsors-img-container{
+    nav ,.team-container,.features, .sponsors-img-container{
         flex-direction: column;
     }
     
